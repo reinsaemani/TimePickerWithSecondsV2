@@ -30,6 +30,19 @@ android {
     }
 }
 
+publishing {
+    publications {
+        mavenAar(MavenPublication) {
+            groupId = 'com.github.reinsaemani'
+            artifactId = 'TimePickerWithSecondsV2'
+            version = '1.0.1'
+
+            // Publikasikan AAR
+            artifact("$buildDir/outputs/aar/${project.getName()}-release.aar")
+        }
+    }
+}
+
 dependencies {
 
     implementation libs.androidx.core.ktx
