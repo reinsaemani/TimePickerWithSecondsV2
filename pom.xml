@@ -1,0 +1,5 @@
+<dependency>
+<groupId>com.github.reinsaemani</groupId>
+<artifactId>TimePickerWithSecondsV2 </artifactId>
+<version>1.0.1</version>
+</dependency>
